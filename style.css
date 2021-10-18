@@ -1,0 +1,85 @@
+/* Utility */
+.tombol {
+  text-transform: uppercase;
+  border-radius: 40px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+  .navbar-brand,
+  .nav-link,
+  .whatsapp {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
+
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid white;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+}
+
+/* Navbar */
+.navbar-brand {
+  font-family: viga, Arial, Helvetica, sans-serif;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #e2edff;
+  background-image: url(img/jt.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 -100;
+}
+
+.jumbotron h1 .jumbotron p {
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.05);
+}
+
+.jumbotron p {
+  margin-bottom: 20px;
+}
+
+.jumbotron h1,
+.jumbotron p,
+.about h2,
+.gallery h2,
+.contact h2 {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  font-family: raleway, Arial, Helvetica, sans-serif;
+}
+
+/* About */
+p span {
+  font-weight: 700;
+}
+
+.sosial1 i {
+  margin: 8px;
+}
+
+#gallery {
+  background-color: #e2edff;
+}
+section {
+  padding-top: 5rem;
+}
+
+.sosial2 i {
+  margin: 20px;
+}
+
+.lokasi {
+  margin-bottom: 12px;
+}
