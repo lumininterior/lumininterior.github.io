@@ -9,13 +9,14 @@
 @media (min-width: 992px) {
   .navbar-brand,
   .nav-link,
-  .whatsapp {
+  .whatsapp,
+  .footer {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
   }
 
   .nav-link {
     text-transform: uppercase;
-    margin-right: 30px;
+    margin-right: 20px;
   }
 
   .nav-link:hover::after {
@@ -30,7 +31,8 @@
 }
 
 /* Navbar */
-.navbar-brand {
+.navbar-brand,
+.footer h3 {
   font-family: viga, Arial, Helvetica, sans-serif;
 }
 
@@ -54,6 +56,7 @@
 .jumbotron h1,
 .jumbotron p,
 .about h2,
+.designbuild h2,
 .gallery h2,
 .contact h2 {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
@@ -61,25 +64,33 @@
 }
 
 /* About */
-p span {
+.about span {
   font-weight: 700;
 }
 
-.sosial1 i {
+.about i {
   margin: 8px;
 }
 
-#gallery {
+#designbuild {
   background-color: #e2edff;
 }
 section {
   padding-top: 5rem;
 }
 
-.sosial2 i {
+.footer i {
   margin: 20px;
 }
 
 .lokasi {
   margin-bottom: 12px;
+}
+
+.gallery-img {
+  width: 100%;
+}
+
+#gallery .row > * {
+  padding: 0;
 }
