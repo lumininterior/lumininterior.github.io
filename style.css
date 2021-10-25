@@ -9,7 +9,7 @@
 @media (min-width: 992px) {
   .navbar-brand,
   .nav-link,
-  .whatsapp,
+  .phone,
   .footer {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
   }
@@ -93,4 +93,11 @@ section {
 
 #gallery .row > * {
   padding: 0;
+}
+
+.tombol-whatsapp {
+  display: scroll;
+  position: fixed;
+  bottom: 12px;
+  right: 12px;
 }
