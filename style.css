@@ -106,14 +106,14 @@ section {
 menu {
   --size: 2.5rem;
   --radius: 6rem;
-  --padding: 0rem;
+  --padding: 1rem;
   --bg-color: rgba(255, 255, 255, 0.9);
   --fg-color: rgba(0, 0, 0, 0.7);
   --hi-color: #c22eff;
 
   position: fixed;
   bottom: var(--padding);
-  right: 18.795px;
+  right: var(--padding);
 }
 
 menu > * {
