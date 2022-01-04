@@ -115,10 +115,6 @@ section {
   padding-top: 1rem;
 }
 
-.services .card {
-  height: rem;
-}
-
 /*Floating Action Button*/
 menu {
   --size: 2.5rem;
